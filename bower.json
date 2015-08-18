@@ -1,0 +1,25 @@
+{
+  "name": "stretch-flag-demo",
+  "version": "0.0.0",
+  "authors": [
+    "dustindwyer <dustin@iglobalstores.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.1.0",
+    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#~1.0.3",
+    "paper-header-panel": "PolymerElements/paper-header-panel#~1.0.4",
+    "paper-menu": "PolymerElements/paper-menu#~1.1.0",
+    "paper-item": "PolymerElements/paper-item#~1.0.2",
+    "paper-material": "PolymerElements/paper-material#~1.0.1",
+    "stretch-flags": "dustindwyer/stretch-flags"
+  }
+}

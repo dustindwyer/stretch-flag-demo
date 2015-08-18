@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Polymer Tutorial</title>
+	</head>
+	<body class="vertical layout" style="background-color: #dddddd;">
+		<script src="import" href="../webcomponentsjs/webcomponents.js"></script>
+		<link rel="import" href="../polymer/polymer.html">
+
+		<link rel="import" href="../paper-drawer-panel/paper-drawer-panel.html">
+		<paper-drawer-panel>
+
+			<link rel="import" href="../paper-header-panel/paper-header-panel.html">
+			<paper-header-panel drawer>
+				<link rel="import" href="../paper-toolbar/paper-toolbar.html">
+				<paper-toolbar><div>Example Polymer Project</div></paper-toolbar>
+
+				<link rel="import" href="../paper-menu/paper-menu.html">
+				<paper-menu>
+					<link rel="import" href="../paper-item/paper-item.html">
+					<paper-item>Option 1</paper-item>
+					<paper-item>Option 2</paper-item>
+					<paper-item>Option 3</paper-item>
+				</paper-menu>
+			</paper-header-panel>
+
+			<paper-header-panel main>				
+				<paper-toolbar><div>Installing Polymer 1.0</div></paper-toolbar>
+					
+				<link rel="import" href="../paper-material/paper-material.html">
+				<paper-material style="background: #fff;">
+					<link rel="import" href="../stretch-flags/stretch-flags.html">
+					<stretch-flags></stretch-flags>
+				</paper-material>
+			</paper-header-panel>
+		</paper-drawer-panel>
+
+	</body>
+</html>
